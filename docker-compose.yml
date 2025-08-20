@@ -1,0 +1,60 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: ai_scribe
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - '5434:5432'
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  server:
+    build: ./server
+    restart: always
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/ai_scribe
+      PORT: 4000
+      PUBLIC_BASE_URL: http://localhost:4000
+      ALLOWED_ORIGINS: http://localhost:3000
+      # Uncomment AUTH_USER and AUTH_PASS to enable basic authentication for the API.
+      # AUTH_USER: admin
+      # AUTH_PASS: secret
+      # OPENAI_API_KEY: your-openai-key
+      # AWS_ACCESS_KEY_ID: your-access-key
+      # AWS_SECRET_ACCESS_KEY: your-secret-key
+      # S3_BUCKET: your-bucket
+      # S3_BASE_URL: https://your-bucket.s3.amazonaws.com
+    depends_on:
+      - db
+    volumes:
+      - ./server/uploads:/usr/src/app/uploads
+    ports:
+      - '4000:4000'
+    command: >
+      sh -c "
+        for i in $(seq 1 30); do
+          npx prisma db push && break || echo 'DB not ready, retrying...' && sleep 2;
+        done;
+        npx prisma db seed || true;
+        node dist/app.js
+      "
+
+  client:
+    build:
+      context: ./client
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:4000
+    restart: always
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:4000
+    depends_on:
+      - server
+    ports:
+      - '3000:3000'
+
+volumes:
+  db_data:

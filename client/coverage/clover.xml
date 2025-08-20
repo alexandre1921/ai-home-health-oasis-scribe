@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1755655250165" clover="3.2.0">
+  <project timestamp="1755655250166" name="All files">
+    <metrics statements="126" coveredstatements="109" conditionals="59" coveredconditionals="36" methods="40" coveredmethods="35" elements="225" coveredelements="180" complexity="0" loc="126" ncloc="126" packages="4" files="12" classes="12"/>
+    <package name="components.ui">
+      <metrics statements="54" coveredstatements="54" conditionals="1" coveredconditionals="0" methods="18" coveredmethods="18"/>
+      <file name="alert.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/components/ui/alert.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+      </file>
+      <file name="button.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/components/ui/button.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+      </file>
+      <file name="card.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/components/ui/card.tsx">
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="28" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="28" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="24" count="28" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="35" count="8" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="42" count="28" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="49" count="8" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+      </file>
+      <file name="input.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/components/ui/input.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="21" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+      </file>
+      <file name="label.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/components/ui/label.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="16" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="select.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/components/ui/select.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+      </file>
+      <file name="skeleton.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/components/ui/skeleton.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+      </file>
+      <file name="table.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/components/ui/table.tsx">
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="14" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="36" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="34" count="54" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="45" count="74" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="utils.ts" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/lib/utils.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="407" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages">
+      <metrics statements="61" coveredstatements="44" conditionals="48" coveredconditionals="30" methods="18" coveredmethods="13"/>
+      <file name="index.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/pages/index.tsx">
+        <metrics statements="48" coveredstatements="31" conditionals="34" coveredconditionals="20" methods="11" coveredmethods="6"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="23" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="69" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="83" count="8" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="105" count="10" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="137" count="2" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="notes.tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/pages/notes.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="14" coveredconditionals="10" methods="7" coveredmethods="7"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="16" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="15" type="stmt"/>
+        <line num="16" count="15" type="stmt"/>
+        <line num="17" count="15" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="13" type="stmt"/>
+        <line num="19" count="13" type="stmt"/>
+        <line num="20" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="15" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="66" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.notes">
+      <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="[id].tsx" path="/home/alexandre/Documentos/jobs/tech-tests/ai_scribe_skeleton/client/pages/notes/[id].tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="10" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
